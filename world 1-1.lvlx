@@ -1,8 +1,8 @@
 HEAD
-TL:"super mario ds world 1-1";XTRA:"{\n    \"timer\"\: {\n        \"enable\"\: true\n    }\n}\n";CPID:"SMBX2";
+TL:"super mario ds world 1-1";XTRA:"{\n    \"player\"\: {\n        \"player1\"\: 1\,\n        \"setCostume1\"\: false\n    }\,\n    \"timer\"\: {\n        \"enable\"\: true\,\n        \"time\"\: 300\n    }\n}\n";CPID:"SMBX2";
 HEAD_END
 SECTION
-SC:0;L:-200000;R:-189536;T:-200608;B:-200000;MZ:10;MF:"";BG:59;XTRA:"{\n    \"darkness\"\: {\n        \"enableDarkness\"\: false\,\n        \"falloff\"\: 3\n    }\n}\n";
+SC:0;L:-200000;R:-189536;T:-200608;B:-200000;MZ:28;MF:"";BG:59;OE:1;XTRA:"{\n    \"darkness\"\: {\n        \"enableDarkness\"\: false\,\n        \"falloff\"\: 0\,\n        \"playerlight\"\: {\n            \"brightness\"\: 0\,\n            \"radius\"\: 122\n        }\n    }\,\n    \"effects\"\: {\n        \"weather\"\: 0\n    }\n}\n";
 SC:1;L:-180000;R:-178368;T:-180600;B:-180000;MZ:50;MF:"";BG:30;XTRA:"{\n    \"darkness\"\: {\n        \"enableDarkness\"\: false\,\n        \"falloff\"\: 0\n    }\n}\n";
 SC:2;L:-160000;R:-157280;T:-160600;B:-160000;MZ:28;MF:"";BG:31;
 SC:3;L:-140000;R:-139200;T:-140600;B:-140000;MZ:0;MF:"";BG:0;
